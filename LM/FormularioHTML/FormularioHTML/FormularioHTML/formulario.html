@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="Escribe tu nombre" required>
+        <br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" placeholder="Escribe tus apellidos" required>
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" min="0" max="110" placeholder="Escribe tu edad" required>
+        <br><br>
+
+        <label for="fecha de nacimiento">Fecha de nacimiento:</label>
+        <input type="date" required>
+        <br><br>
+
+        <label for="color favorito">Color favorito:</label>
+        <input type="color" required>
+        <br><br>
+
+        <label for="escribe algo sobre ti">Escribe algo sobre ti:</label>
+        <textarea placeholder="Escribe algo sobre ti" required></textarea>
+        <br><br>
+
+        <label for="provincia">Selecciona de qué provincia de Andalucía eres:</label>
+        <select>
+            <option value="">Elige una opción: </option>"
+            <option value="Granada">Sevilla</option>
+            <option value="Jaén">Cádiz</option>
+            <option value="Sevilla">Granada</option>
+            <option value="Cádiz">Málaga</option>
+            <option value="Málaga">Córdoba</option>
+            <option value="Huelva">Huelva</option>
+            <option value="Córdoba">Almería</option>
+            <option value="Almería">Jaén</option>
+        </select> 
+        <br><br>
+    
+        <label for="teléfono">Tu teléfono:</label>
+        <input type="tel" placeholder="Escribe tu teléfono" required>
+        <br><br>
+
+        <label for="mes favorito del año">Mes favorito del año:</label>
+        <input type="month" required>
+        <br><br>
+
+        <label>Sexo:</label>
+        <input type="radio" value="hombre" required>
+        <label for="hombre">Hombre</label>
+        <input type="radio" value="mujer" required>
+        <label for="mujer">Mujer</label>
+        <input type="radio" value="otro" required>
+        <label for="otro">Otro</label>
+        <br><br>
+
+        <label for="Email">Email: </label>
+        <input type="email" placeholder="Escribe tu email" required>
+        <br><br>
+
+        <label for="imagen">Sube una imagen: </label>
+        <input type="submit" required>
+        <br><br>
+
+        <label for="¿cuál es tu progreso en HTML?">¿Cuál es tu progreso en HTML?: </label>
+        <input type="range" min="0" max="100" placeholder="50" required>
+        <br><br>
+
+        <label>Haz una lista de comidas y checkea tus favoritas:</label>
+        <label for="Macarrones">Macarrones </label>
+        <input type="checkbox" id="Macarrones">
+        <label for="Carne">Carne </label>
+        <input type="checkbox" id="Carne">
+        <label for="Pescado">Pescado </label>
+        <input type="checkbox" id="Pescado">
+        <label for="Legumbres">Legumbres </label>
+        <input type="checkbox" id="Legumbres">
+        <label for="Ensalada">Ensalada </label>
+        <input type="checkbox" id="Ensalada">
+        <label for="Pizza">Pizza </label>
+        <input type="checkbox" id="Pizza">
+        <label for="Arroz">Arroz </label>
+        <input type="checkbox" id="Arroz">
+        <label for="Verduras">Verduras </label>
+        <input type="checkbox" id="Verduras">
+        <br><br>
+
+        <label for="hobbies">Tus hobbies:</label> 
+        <select>
+         <option value="">Elige una opción</option>
+         <option value="Deportes">Deportes</option>
+         <option value="Escuchar música">Escuchar música</option>
+         <option value="Leer">Leer</option>
+         <option value="Dormir">Dormir</option>
+         <option value="RRSS">RRSS</option>
+         <option value="Viajar">Viajar</option>
+        </select>
+        <br><br>
+
+        <button type="reset">Reiniciar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

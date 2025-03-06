@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(#84dfea, white);
+}
+
+.caja{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+}
+
+.caja1{
+    background-color: #ed2f2f;
+}
+
+.caja2{
+    background-color: #56b679;
+}
+
+.caja3{
+    background-image: linear-gradient(90deg,#ff9500, #ff5721);
+}
+
+.caja4{
+    background-image: radial-gradient(#002d90, #00e5ff);
+}
+
+.caja5{
+    background-image: linear-gradient(90deg, #49fbb3, #00d0fd, #0415ff);
+}
+
+.caja6{
+    background-image: linear-gradient(135deg, #ec3790, #2d90ed);
+}
+
+.caja7{
+    background-image: radial-gradient(#fcf4e0, #f3c468, #23baf1);
+}
+
+.caja8{
+    background-image: radial-gradient(at 0% 100%, #f45537, #fee83b, #2d9be1);
+}

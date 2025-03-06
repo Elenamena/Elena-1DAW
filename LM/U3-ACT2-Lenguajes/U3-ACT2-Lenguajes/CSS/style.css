@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 200px;
+    padding: 0;
+    background-color: #f5f5ff;
+}
+
+
+.cabecera {
+        font-size: 200px; /* Reducir tamaño de todas las cabeceras */
+        margin: 85px 0; /* Espaciado uniforme */ 
+}
+
+.cuadro {
+    width: 850px; /* Ancho del cuadro */
+    height: 150px; /* Alto del cuadro */
+    padding: 10px; /* Espaciado interno */
+    margin: 50px auto; /* Centrar el cuadro */
+    text-align: center; /* Centrar el texto */
+    background: linear-gradient(145deg, #055de3, #dcdcdc); /* Degradado en el fondo */
+}
+
+.cuadro02 {
+    width: 900px; /* Ancho del cuadro */
+    height: 60px; /* Alto del cuadro */
+    padding: 10px; /* Espaciado interno */
+    margin: 50px auto; /* Centrar el cuadro */
+    text-align: center; /* Centrar el texto */
+    background: linear-gradient(145deg, #055de3, #dcdcdc); /* Degradado en el fondo */
+}
+
+.cuadro03 {
+    width: 750px; /* Ancho del cuadro */
+    height: 350px; /* Alto del cuadro */
+    padding: 10px; /* Espaciado interno */
+    margin: 50px auto; /* Centrar el cuadro */
+    text-align: center; /* Centrar el texto */
+    background:#1465df;
+}
+
+h4 {
+    border: 2px solid #1465df; /* Borde sólido de 2px color verde */
+    padding: 10px;            /* Espacio interno dentro del borde */
+    width: 850px;      /* Ajusta el tamaño del cuadro al contenido */
+    margin: 20px auto;       /* Centra horizontalmente */
+    background: #3f83e8;
+}
+
+
+.p01 {
+    padding: 10px;            /* Espacio interno dentro del borde */
+    width: 850px;      /* Ajusta el tamaño del cuadro al contenido */
+}
+
+blockquote {
+    padding: 10px;            /* Espacio interno dentro del borde */
+    width: 850px;      /* Ajusta el tamaño del cuadro al contenido */
+    margin: 20px auto;       /* Centra horizontalmente */
+}
+
+.p1 {
+    padding: 10px;            /* Espacio interno dentro del borde */
+    width: 850px;      /* Ajusta el tamaño del cuadro al contenido */
+    margin: 20px auto;       /* Centra horizontalmente */
+}
+
+
+.cuadro2 {
+    width: 850px; /* Ancho del cuadro */
+    height: 150px; /* Alto del cuadro */
+    background-color: #ececec; /* Fondo del cuadro */
+    padding: 10px; /* Espaciado interno */
+    margin: 50px auto; /* Centrar el cuadro */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #85c1e9, #d6eaf8);
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation */
+aside {
+    float: left;
+    width: 20%;
+    background-color: #e8eaf6;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+aside nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+section h2, section h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #85c1e9;
+    padding-bottom: 5px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+article img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #7dabda;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+footer p {
+    margin: 10px;
+}
+
+/* Logos Section */
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}

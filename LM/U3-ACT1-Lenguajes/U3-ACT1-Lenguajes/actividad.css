@@ -1,0 +1,60 @@
+body {
+    background-color: #045fc6;
+    font-family: "Roboto", sans-serif;
+}
+
+
+footer {
+    background-color: #3c15b2;
+}
+
+
+a {
+    color: #f7e7af;
+}
+
+
+.pazul {
+    color: #0160ce;
+}
+
+
+#contenedor {
+    width: 1000px;
+    height: 80%;
+    background-color: white;
+    padding: 100px;
+}
+
+
+#subti {
+    font-size: larger;
+    text-align: left;
+    font-family: "Atomic Age", system-ui;
+}
+
+
+#caja {
+    width: 1000px;
+    height: 20%;
+    background-color: #2f00bc;
+    padding: 100px;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+#izq {
+    text-align: left;
+    ;
+}
+
+
+.azul {
+    color: #4293ef;
+}
+
+
+#caja p {
+    margin-bottom: 34px;
+}
