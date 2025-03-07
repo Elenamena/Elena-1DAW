@@ -1,0 +1,160 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+
+
+header {
+    background-color: #80B2EC;
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+
+
+#mascotas {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+#titulo {
+    color: #81B2EC;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#quees {
+    margin: 5% auto;
+    max-width: 45em;
+}
+
+.bi {
+    font-size: 20px;
+}
+
+
+
+article {
+    background-color: #F0F8FF;
+    padding: 50px;
+    padding-top: 1.5em;
+}
+
+
+
+article h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+article p {
+    margin: 0.5em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+article ul {
+    margin: 0.5em;
+    margin-top: 30px;
+}
+
+article li {
+    text-align: left;
+}
+
+
+
+
+#galeria {
+    color: #86B6ED;
+    font-size: 20px;
+    font-weight: 650;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+
+
+aside {
+    background-color: #F0F8FF;
+    padding: 5px;
+    padding-top: 1.5em;
+    padding-bottom: 30px;
+}
+
+aside h2 {
+    padding-bottom: 1.5em;
+}
+
+#gallery {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+#photos {
+    justify-content: center;
+}
+
+#photos img:nth-child(1) { width: 220px; height: 220px; }
+#photos img:nth-child(2) { width: 200px; height: 220px; }
+#photos img:nth-child(3) { width: 210px; height: 150px; }
+#photos img:nth-child(4) { width: 220px; height: 160px; }
+#photos img:nth-child(5) { width: 200px; height: 130px; }
+#photos img:nth-child(6) { width: 210px; height: 140px; }
+#photos img:nth-child(7) { width: 210px; height: 210px; }
+#photos img:nth-child(8) { width: 220px; height: 210px; }
+
+
+#photos img {
+    width: 30%;
+    height: 200px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+
+
+aside li {
+    width: 60%;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+
+
+footer {
+    background-color: #80B2EC;
+    padding: 25px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
