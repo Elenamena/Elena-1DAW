@@ -1,0 +1,47 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#titulo1 {
+  color: #212529;
+}
+
+#titulo2 {
+  color: #6C757D;
+  margin-bottom: 20px;
+}
+
+.sub {
+  padding: 0.5px;
+  background-color: #FFF2CD;
+}
+
+.EU, .apple {
+  color: blue;
+  text-decoration: none;
+}
+
+.inteligencia {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 2px;
+  justify-content: center;
+  background-color: #212529;
+  color: white;
+}
+
+footer p {
+    margin: 0;
+    justify-content: center;
+}
+
+
+.historia {
+  font-weight: bold;
+}
+
+
